@@ -1,0 +1,4 @@
+services:
+  custom_json_parser.parser:
+    class: Drupal\custom_json_parser\CustomJsonParser
+    arguments: ['@http_client', '@logger.factory', '@serialization.json']

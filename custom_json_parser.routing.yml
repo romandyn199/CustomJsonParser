@@ -1,0 +1,7 @@
+custom_json_parser.content:
+  path: '/json_parser'
+  defaults:
+    _controller: '\Drupal\custom_json_parser\Controller\CustomJsonParserController::content'
+    _title: 'Json Parser'
+  requirements:
+    _permission: 'access content'

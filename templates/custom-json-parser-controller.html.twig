@@ -1,0 +1,8 @@
+{% for node in nodes %}
+  <div class="'node">
+    <p class="title">{{ node.title }}</p>
+    <a class="link" href="{{ node.url }}">
+      <img class="image" src="{{ node.img }}" alt="node">
+    </a>
+  </div>
+{% endfor %}

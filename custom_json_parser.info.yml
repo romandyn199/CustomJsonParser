@@ -1,0 +1,6 @@
+name: Custom Json Parser
+description: Json parser  custom module
+package: Custom
+
+type: module
+core: 8.x
